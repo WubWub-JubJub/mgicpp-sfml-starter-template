@@ -26,6 +26,20 @@ class Game
   sf::Texture bird_texture;
   sf::Sprite bird = sf::Sprite(bird_texture);
 
+  sf::Font font;
+  sf::Text title_text = sf::Text(font);
+  sf::Text text = sf::Text(font);
+
+  bool in_menu = true; 
+  sf::Text play_text = sf::Text(font);
+  sf::Text quit_text = sf::Text(font);
+  sf::Text play_option = sf::Text(font);
+  sf::Text quit_option = sf::Text(font);
+  sf::Text menu_text = sf::Text(font);
+  bool play_selected = true;
+
+ 
+
 };
 
 #endif // SFML_GAME_H

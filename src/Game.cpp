@@ -156,6 +156,13 @@ void Game::keyPressed(const sf::Event::KeyPressed* event)
 			window.close();
 		}
 	}
+	else if (event->scancode == sf::Keyboard::Scancode::Escape)
+	{
+		if (in_menu == false)
+		{
+			in_menu = true;
+		}
+	}
 }
 
 // Called by event polling when a KeyReleased event is found

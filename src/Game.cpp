@@ -10,7 +10,7 @@ Game::Game(sf::RenderWindow& game_window)
 
 Game::~Game()
 {
-
+ // Branch change testing testing 
 }
 
 // We call this once after the game class is instantiated
